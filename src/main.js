@@ -9,7 +9,7 @@ import QS from 'qs'
 Vue.prototype.qs = QS
 Vue.prototype.$axios = axios
 Vue.config.productionTip = false
-axios.defaults.timeout = 6000;
+axios.defaults.timeout = 20000;
 
 
 /* eslint-disable no-new */
